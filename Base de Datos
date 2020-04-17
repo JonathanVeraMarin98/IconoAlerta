@@ -1,0 +1,13 @@
+CREATE DATABASE Ojo
+USE Ojo
+
+CREATE TABLE Notificacion(
+idAlerta int not null primary key,
+notificaciones varchar(200),
+estado varchar(1),
+urll varchar(200)
+)
+
+INSERT INTO Notificacion VALUES (1,'Hola como estan','A','About.aspx')
+
+SELECT * FROM Notificacion
